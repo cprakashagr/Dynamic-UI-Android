@@ -31,7 +31,24 @@ public class MyActivity extends Activity {
 
         mCardAdapter = new CardsDataAdapter(getApplicationContext(), mCardStack);
 
-        //  Over Loop for the entire objects from the WebService Return
+/*
+        Following add methods is similar to making a web service call. The return is an array which would contain data as:
+        [
+          {
+            cardType: type01,
+            cardData: {
+
+            }
+          },
+          {
+            cardType: type02,
+            cardData: {
+
+            }
+          }
+        ]
+*/
+
         mCardAdapter.add(new CardModel(new JobModel()));
         mCardAdapter.add(new CardModel(new JobModel()));
         mCardAdapter.add(new CardModel(new JobModel()));
