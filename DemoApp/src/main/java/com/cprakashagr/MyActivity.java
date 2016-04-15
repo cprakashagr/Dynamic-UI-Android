@@ -47,6 +47,8 @@ public class MyActivity extends Activity {
             }
           }
         ]
+
+        For more card types, add its model and class and card specific behaviour.
 */
 
         mCardAdapter.add(new CardModel(new JobModel()));
