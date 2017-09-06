@@ -10,14 +10,14 @@ A hard-coded json return over a web service call:
 ```json
  [
    {
-     'cardType': 'type01',
-     'cardData': {
+     "cardType": "type01",
+     "cardData": {
 
      }
    },
    {
-     'cardType': 'type02',
-     'cardData': {
+     "cardType": "type02",
+     "cardData": {
 
      }
    }
